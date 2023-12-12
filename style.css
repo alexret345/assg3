@@ -1,6 +1,6 @@
 /* Apply styles to the nav-bar class */
 .nav-bar {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     padding: 10px;
   }
@@ -12,7 +12,7 @@
   
   /* Apply styles to the footer class */
   .footer {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -35,7 +35,7 @@
   
   /* Adjacent sibling selector: Apply styles to the content class that directly follows the nav-bar class */
   .nav-bar + .content {
-    border-top: 1px solid #333;
+    border-top: 1px solid #555;
   }
   
   /* Descendant selector: Apply styles to 'p' elements within the content class */
@@ -89,7 +89,7 @@
     content: "";
     display: block;
     height: 2px;
-    background-color: #333;
+    background-color: #555;
     margin: 10px 0;
   }
   
